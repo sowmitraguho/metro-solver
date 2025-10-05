@@ -1,5 +1,6 @@
 import CompanyMarquee from "@/components/Home/CompanyMarquee"
 import HeroSection from "@/components/Home/HeroSection"
+import OurServices from "@/components/Home/OurServices/OurServices"
 import Navbar from "@/components/Navbar/Navbar"
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <CompanyMarquee />
+      <OurServices />
     </main>
   )
 }
